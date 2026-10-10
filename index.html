@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LeetCode Stats</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="card">
+    <h1>LeetCode Stats</h1>
+    <div class="search">
+      <input id="username" type="text" placeholder="Enter LeetCode username" autocomplete="off" />
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <p id="status" class="status"></p>
+
+    <section id="result" class="result hidden">
+      <h2 id="displayName"></h2>
+      <div class="total">
+        <span id="totalSolved">0</span>
+        <small>Total Solved</small>
+      </div>
+      <div class="grid">
+        <div class="stat easy"><span id="easySolved">0</span><small>Easy</small></div>
+        <div class="stat medium"><span id="mediumSolved">0</span><small>Medium</small></div>
+        <div class="stat hard"><span id="hardSolved">0</span><small>Hard</small></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
